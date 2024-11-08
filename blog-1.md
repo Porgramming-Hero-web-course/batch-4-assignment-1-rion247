@@ -10,7 +10,7 @@ A union type is a type that can represent a value that is one of multiple types.
 
 **Basic Syntax:**
 type TypeName = Type1 | Type2 | Type3;
-where, Type1, Type2, Type3 etc. are the types that the variable or value can be. The value can be on of the types, not necessarily all of them at the same time.
+where, Type1, Type2, Type3 etc. are the types that the variable or value can be. The value can be one of the types, not necessarily all of them at the same time.
 
 **Example:**
 type Shape = “circle” | “square” | “triangle”;
@@ -44,7 +44,7 @@ An intersection type allows to combine multiple types into a single type that in
 An intersection type is a type that represents a value that must satisfy all the types that are combined together.
 
 **Basic Syntax:**
-type Type1 & Type2 & Type3;
+type TypeName = Type1 & Type2 & Type3;
 where Type1, Type2, and Type3 are the types being combined, and the resulting type will include properties and methods from all of them.
 
 **Example:**
