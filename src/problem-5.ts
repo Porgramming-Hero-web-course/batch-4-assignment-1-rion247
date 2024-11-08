@@ -6,8 +6,8 @@
         return object[propertyName];
     }
 
-    const person = { name: "Alice", age: 30 };
-    console.log(getProperty(person, "name"));
+    // const person = { name: "Alice", age: 30 };
+    // console.log(getProperty(person, "name"));
 
     //
 

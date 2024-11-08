@@ -11,8 +11,8 @@
         return { ...value, ...updates };
     }
 
-    const myProfile = { name: "Alice", age: 25, email: "alice@example.com" };
-    console.log(updateProfile(myProfile, { age: 26 }));
+    // const myProfile = { name: "Alice", age: 25, email: "alice@example.com" };
+    // console.log(updateProfile(myProfile, { age: 26 }));
 
     //
 }
